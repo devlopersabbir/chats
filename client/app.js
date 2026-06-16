@@ -4,7 +4,7 @@ const sendBtn = document.getElementById("sendBtn");
 const statusSpan = document.getElementById("status");
 
 // REPLACE THIS with your actual WebSocket server address
-const WS_URL = "ws://localhost:9090/ws";
+const WS_URL = "ws://localhost:8080/ws";
 
 let socket;
 
