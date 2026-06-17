@@ -8,6 +8,7 @@ import (
 )
 
 func HandleConnection(conn *websocket.Conn) {
+
 	for {
 		// Read message from browser client
 		messageType, msg, err := conn.ReadMessage()
