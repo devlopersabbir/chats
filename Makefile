@@ -1,3 +1,3 @@
 dev:
-	go run main.go
+	air
 
